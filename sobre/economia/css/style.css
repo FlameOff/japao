@@ -46,13 +46,28 @@ body{
         background-attachment: fixed; 
     }
 }
+
 .imprin{
-    background-image:url(/sobre/css/sobre.jpg ) ;
+    background: url(rich.jpg);
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 150px;
+    background-repeat:no-repeat;
+    background-attachment:fixed ;
+    max-width: 100%;
+    display: flex;
+    max-height: 400px;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+}
+.imprin h1{
+    animation: img 70s infinite linear;
+    padding: 20px;
+    border-radius: 30px;
 }
 .funfun{
     text-align: justify;
@@ -78,6 +93,14 @@ body{
     justify-items:center;
     position:relative;
 }
+.navd{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    height: max-content;
+    align-items: center;
+    display: flex;
+}
 nav li{
     list-style: none;
     color: black;
@@ -97,4 +120,25 @@ nav li{
     text-decoration: none;
     position: relative;
     
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.tex{
+    width: 100%;
+    height: max-content;
+    background: aliceblue;
+    padding: 5px 10px;
+}
+.tex p{
+    color: black;
+    text-align: justify;
+}
+.tex h2{
+    background: gold;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 5px;
+    width: max-content;
 }
