@@ -1,8 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background: #;
-    background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
@@ -88,7 +86,11 @@ body{
 }
 .fest img{
     border-radius: 20px;
-    margin: 0px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 450px;
 }
 .navd{
     position: relative;
@@ -121,4 +123,103 @@ nav li{
 li a{
     text-decoration: none;
     color: black;
+}
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:800px)
+{
+    .imprin{
+        background: url(fest.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-attachment:fixed ;
+        max-width: 100%;
+        display: flex;
+        max-height: 400px;
+        font-size: 20px;
+        color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .imprin h1{
+        animation: img 70s infinite linear;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .fundo{
+        background: aliceblue;
+    }
+    .fest{
+        display: flex;
+        padding: 5px 10px;
+        color: black;
+        flex-direction: column;
+        text-align: justify;
+    }
+    .fest h2{
+        background-color: blueviolet;
+        width: max-content;
+        height: max-content;
+        padding: 5px 10px;
+        border-radius: 15px;
+        color: aliceblue;
+    }
+    .fest img{
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 200px;
+    }
+    .fest p{
+        text-indent: 50px;
+        padding: 0px 50px;
+    }
+    .navd{
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        height: max-content;
+        align-items: center;
+        display: flex;
+    }
+    nav li{
+        list-style: none;
+        color: black;
+        background-color: gold;
+        padding: 8px 15px;
+        background-size: cover;
+        background-attachment: fixed;
+        border-radius: 10px;
+        display: inline;
+        align-items: center;
+        justify-content: space-around;
+        justify-items:center;
+        align-content:center;
+        flex-direction: row;
+        background-size: cover;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+    .img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -55,6 +55,11 @@ body{
     background: aliceblue;
     padding:5px 10px;
     text-align: justify;
+    
+}
+.jog p{
+    text-indent: 50px;
+    padding: 0px 50px;
 }
 .jog h2{
     background:#011e56;
@@ -65,11 +70,12 @@ body{
 }
 .jog img{
     border-radius: 20px;
-    margin: 0px 400px;
+    width:700px;
+    height:450px;
 }
 .imprin{
     background: url(futebol.jpg);
-    background-position:center;
+    background-position:bottom;
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment:fixed ;
@@ -120,4 +126,98 @@ nav li{
 li a{
     text-decoration: none;
     color: black;
+}
+.imagi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:800px)
+{
+    .fundo{
+        background-size: cover;
+        width: 100%;
+        height: max-content;
+    }
+    .jog{
+        background: aliceblue;
+        padding:5px 10px;
+        text-align: justify;
+    }
+    .jog h2{
+        background:#011e56;
+        width: max-content;
+        padding: 5px 10px;
+        color: aliceblue;
+        border-radius: 15px;
+    }
+    .jog img{
+        border-radius: 20px;
+        width:350px;
+        height:200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imprin{
+        background: url(futebol.jpg);
+        background-position:bottom;
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-attachment:fixed ;
+        max-width: 100%;
+        display: flex;
+        max-height: 400px;
+        font-size: 20px;
+        color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .imprin h1{
+        animation: img 70s infinite linear;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .navd{
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        height: max-content;
+        align-items: center;
+        display: flex;
+    }
+    nav li{
+        list-style: none;
+        color: black;
+        background-color: gold;
+        padding: 8px 15px;
+        background-size: cover;
+        background-attachment: fixed;
+        border-radius: 10px;
+        display: inline;
+        align-items: center;
+        justify-content: space-around;
+        justify-items:center;
+        align-content:center;
+        flex-direction: row;
+        background-size: cover;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+    }
+    .imagi{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
